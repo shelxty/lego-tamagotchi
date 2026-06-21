@@ -4,6 +4,8 @@ This is a tamagotchi (a virtual pet) modeled after a lego piece! Created for Hac
 
 <img width="2547" height="3296" alt="AssemblyLego2" src="https://github.com/user-attachments/assets/5fd01492-54c8-4692-bd4c-1e7b4385e37f" />
 
+_He says hello! And also asks you to help him find a name! (Because I'm not creative)_
+
 
 ## Motivation 
 As a complete beginner in hardware, I was absolutely lost on what hardware was. I had looked at a few KiCad tutorials, but each time I was confused -- what the hell was ground? What's the difference between 5V and 3.3V? Why are some things wired like that? But on a trip back from NYC with Tanishq, he gave me a good explanation on what hardware was, and how to get started with it. I was surprised to hear that he made his very own full-fleshed tutorial for those beginning in hardware, and honestly, I'll credit Tanishq and this tutorial for truly teaching me what hardware is. I'm still a beginner, but at least I've made that first step from zero to... one! Yay! 
@@ -14,9 +16,14 @@ Anyways, this is my first completed hardware project that uses both PCBs and CAD
 Components: 
 | **Designator** | **Part** | **Purpose** |
 |-------|---|----------------------|
-| U1 | Seeed Studio XIAO ESP32-C3 | Made by Seeed Studio, it's a miniature ESP32 that uses a USB-C for power; it's a microcontroller capable of WiFi and Bluetooth | 
+| U1 | Seeed Studio XIAO ESP32-C3 | Made by Seeed Studio, it's a miniature ESP32 that uses a USB-C for power; it's a microcontroller capable of WiFi and Bluetooth. Everything else on the PCB gives this module inputs, outputs, and power | 
+| BT1 | Single-cell battery | This powers the whole board, connected to the XIAO BATT+ charging input pins | 
+| SW1 , SW2, SW3 | 3 push buttons | Corresponding to pins D2, D1, and D0, these push buttons allow the user to interact with the tamagotchi | 
 
 
+<img width="1410" height="2000" alt="Lego Tamagotchi Shelley Zine Fallout" src="https://github.com/user-attachments/assets/ac35d3ef-a8ea-4965-b94b-5dc5bd645c9c" />
+
+_My zine!_
 
 ## Bill of Materials (BOM) 
 
