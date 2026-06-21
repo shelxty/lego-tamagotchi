@@ -13,18 +13,65 @@ As a complete beginner in hardware, I was absolutely lost on what hardware was. 
 Anyways, this is my first completed hardware project that uses both PCBs and CAD. Thank you Tanishq! 
 
 ## How It Works / How It's Used
-Components: 
-| **Designator** | **Part** | **Purpose** |
-|-------|---|----------------------|
-| U1 | Seeed Studio XIAO ESP32-C3 | Made by Seeed Studio, it's a miniature ESP32 that uses a USB-C for power; it's a microcontroller capable of WiFi and Bluetooth. Everything else on the PCB gives this module inputs, outputs, and power | 
-| BT1 | Single-cell battery | This powers the whole board, connected to the XIAO BATT+ charging input pins | 
-| SW1 , SW2, SW3 | 3 push buttons | Corresponding to pins D2, D1, and D0, these push buttons allow the user to interact with the tamagotchi | 
+
+### Components: 
 
 
+| **Designator** | **Part** | **Wiring** | **Purpose** |
+|-------|---|-------|---------------|
+| U1 | Seeed Studio XIAO ESP32-C3 | N/A | Made by Seeed Studio, it's a miniature ESP32 that uses a USB-C for power; it's a microcontroller capable of WiFi and Bluetooth. Everything else on the PCB gives this module inputs, outputs, and power | 
+| BT1 | Single-cell battery | N/A | This powers the whole board, connected to the XIAO BATT+ charging input pins | 
+| SW1 , SW2, SW3 | 3 push buttons | GPIO2 (D0), GPIO3 (D1), and GPIO4 (D2), respectively | These push buttons allow the user to interact with the tamagotchi | 
+| U2 | 0.96 inch OLED display (SSD1315) | SDA is wired to GPIO6 (D4) and SCL is wired to GPIO7 (D5), while VCC takes in 3.3V | This is the display for the pet -- it's the area that allows you to actually play and interact with your tamagotchi | 
+| BUZZER1 | A piezoelectric buzzer | GPIO10 (D10) (MOSI) | This is the sound output. Whenever you press an action, the tamagotchi responds by buzzing with the buzzer to provide feedback. |
+
+
+### Hardware: 
+
+
+- **Tool:** KiCad 10
+- **Board:** 2-layer PCB with a custom outline
+- **Microcontroller:** The Seeed Studio XIAO ESP32-C3
+- **Display:** A 0.96" 128x64 OLED display with a SSD1315 driver
+- **Audio:** A piezoelectric buzzer approximately 12 millimeters in diameter
+- **Input:** 3 push buttons embedded onto the PCB 
+
+---
 
 <img width="1410" height="2000" alt="Lego Tamagotchi Shelley Zine Fallout" src="https://github.com/user-attachments/assets/cfb26b5b-1810-4723-88ca-163711b7f1bd" />
 
 _My zine!_
+
+
+---
+## PCB Design
+
+<img width="1368" height="767" alt="image" src="https://github.com/user-attachments/assets/b43e3f8e-b6d8-407d-ba06-0843539667c8" />
+
+_View of the schematic_
+
+
+<img width="862" height="629" alt="image" src="https://github.com/user-attachments/assets/cae4dacb-41fa-40fe-abf6-781c160e430d" />
+
+_View of the PCB (if you notice the little design in the middle, you should dm me on slack @shelx with a Matt Rose furby picture)_
+
+
+<img width="1350" height="872" alt="image" src="https://github.com/user-attachments/assets/4fe8e0ef-e1c1-4332-a80b-445470f97f4b" />
+
+_3D view_ 
+
+...furbies...
+
+anyways! 
+
+---
+## CAD 
+
+This tamagotchi project got me to finally start learning how to CAD so wow! 
+
+
+
+---
 
 ## Bill of Materials (BOM) 
 
