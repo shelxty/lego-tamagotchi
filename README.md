@@ -69,6 +69,14 @@ anyways!
 
 This tamagotchi project got me to finally start learning how to CAD so wow! 
 
+| <img width="722" height="724" alt="image" src="https://github.com/user-attachments/assets/96f545e6-ac49-42f4-b2f2-09e8d1e887ba" /> | <img width="456" height="698" alt="image" src="https://github.com/user-attachments/assets/79e03f14-d164-4df2-9e99-7a1609969d55" /> | 
+|---|---| 
+| Exploded View | Frontal View | 
+| <img width="454" height="604" alt="image" src="https://github.com/user-attachments/assets/4192712f-d684-41ef-9e4d-00c435de0bd8" /> | <img width="522" height="724" alt="image" src="https://github.com/user-attachments/assets/d803c561-1d85-4b0c-8523-094e64c4fcfb" /> | 
+| Back View | Side (Right) View |
+
+
+The PCB is screwed in after the 3D printing is finished. 
 
 
 ---
