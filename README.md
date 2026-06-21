@@ -21,7 +21,8 @@ Components:
 | SW1 , SW2, SW3 | 3 push buttons | Corresponding to pins D2, D1, and D0, these push buttons allow the user to interact with the tamagotchi | 
 
 
-<img width="1410" height="2000" alt="Lego Tamagotchi Shelley Zine Fallout" src="https://github.com/user-attachments/assets/ac35d3ef-a8ea-4965-b94b-5dc5bd645c9c" />
+
+<img width="1410" height="2000" alt="Lego Tamagotchi Shelley Zine Fallout" src="https://github.com/user-attachments/assets/cfb26b5b-1810-4723-88ca-163711b7f1bd" />
 
 _My zine!_
 
