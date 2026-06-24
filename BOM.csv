@@ -1,6 +1,0 @@
-"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","MPN","Description"
-"BT1","1","Battery_Cell","","","","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","","Single-cell battery"
-"BUZZER1","1","1207-P6.5MM","","","","easyeda2kicad:BUZ-TH_BD12.5-P6.50-D1.4","1207-P6.5MM",""
-"SW1,SW2,SW3","3","SW_Push","","","","easyeda2kicad:SW-TH_4P-L4.5-W4.5-P3.00-LS4.8","","Push button switch, generic, two pins"
-"U1","1","XIAO-ESP32-C3-SMD","","","","Seeed_Studio_XIAO_Series:XIAO-ESP32-C3-SMD","",""
-"U2","1","HS96L03W2C03","","","","easyeda2kicad:OLED-TH_L27.8-W27.2-P2.54_C9900033791","HS96L03W2C03",""
