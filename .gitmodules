@@ -1,6 +1,0 @@
-[submodule "Github_Kicad_Integration_Demo"]
-	path = Github_Kicad_Integration_Demo
-	url = https://github.com/pcbcupid/Github_Kicad_Integration_Demo.git
-[submodule "Library/PCBCUPID_Library"]
-	path = Library/PCBCUPID_Library
-	url = https://github.com/pcbcupid/PCBCupid_Kicad_Library.git
