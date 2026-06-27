@@ -82,6 +82,8 @@ The PCB is screwed in after the 3D printing is finished.
 Link to Onshape document: https://cad.onshape.com/documents/e4a64d821d7c72313f05382f/w/889a245c2565bee9629b9436/e/a5b00448e143d248d84f17b3?renderMode=0&uiState=6a3da3ea25405d2bf4fc1bb7
 
 
+To try it out, use the Wokwi simulator: https://wokwi.com/projects/467841668828380161
+
 ---
 
 ## Bill of Materials (BOM) 
