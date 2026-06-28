@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Arduino ProMini") (type "KiCad") (uri "${KIPRJMOD}/Library/PCBCUPID_Library/Modules/Arduino_ProMini") (options "") (descr ""))
+	(lib (name "xiao_symbols") (type "KiCad") (uri "C:/Users/shell/OneDrive/Documents/KiCad/10.0/projects/tamagotchi/tamagotchi/seeeduino/XIAO_Series_SCH_Symbols") (options "") (descr ""))
+	(lib (name "easyeda2kicad") (type "KiCad") (uri "${EASYEDA2KICAD}/easyeda2kicad.kicad_sym") (options "") (descr ""))
+)
