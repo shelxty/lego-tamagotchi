@@ -84,6 +84,15 @@ Link to Onshape document: https://cad.onshape.com/documents/e4a64d821d7c72313f05
 
 To try it out, use the Wokwi simulator: https://wokwi.com/projects/467841668828380161
 
+### Measurements (for 3D printing)
+
+This should be able to be printed with a Bambu A1 mini! 
+**Context:** A Bambu A1 mini bed size is 180mm x 180mm x 180mm.
+
+- Leg: 120mm (height) x 64mm (length)
+- Torso: 131mm (height) x 137mm (longest base) 
+- Head: 43mm (height), 91mm (diameter)
+
 ---
 
 ## Bill of Materials (BOM) 
