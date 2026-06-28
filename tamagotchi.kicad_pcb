@@ -593,10 +593,12 @@
 			(pintype "passive+no_connect")
 			(uuid "52bf6de9-4bfc-4c67-aa4b-38620e59fd87")
 		)
-		(pad "32" smd roundrect
+		(pad "32" thru_hole roundrect
 			(at 4.445 -10.882)
 			(size 2.5 1.1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "+BATT")
 			(pinfunction "BAT_32")
@@ -604,10 +606,12 @@
 			(thermal_bridge_angle 45)
 			(uuid "62cd3556-a33f-4b8e-a045-292ee427a84f")
 		)
-		(pad "33" smd roundrect
+		(pad "33" thru_hole roundrect
 			(at 4.445 -12.787)
 			(size 2.5 1.1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "GND")
 			(pinfunction "GND_33")
